@@ -1,8 +1,8 @@
-const caixaprincipal = document.querySelector('.caixa-principal')
-const caixaperguntas = document.querySelector('.caixa-perguntas')
-const caixaalternativas = document.querySelector('.caixa-alternativas')
-const caixaresultados = document.querySelector('.caixa-resultado')
-const textoresultados = document.querySelector('.texto-resultado')
+const caixaprincipal = document.querySelector('.caixa-principal');
+const caixaperguntas = document.querySelector('.caixa-perguntas');
+const caixaalternativas = document.querySelector('.caixa-alternativas');
+const caixaresultados = document.querySelector('.caixa-resultado');
+const textoresultados = document.querySelector('.texto-resultado');
 
 const perguntas = [
 
@@ -70,7 +70,7 @@ function mostraPerguntas (){
 
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas)
-    { const botaoAlternativa = document.createElement ("button")
+    { const botaoAlternativa = document.createElement ("button");
         botaoAlternativa.textContent = alternativa.texto;
         botaoAlternativa.addEventListener("click", () => respostaSelecionada (alternativa));
         caixaalternativas.appendChild(botaoAlternativa);
