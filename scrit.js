@@ -13,12 +13,12 @@ const perguntas = [
 
                 {
                     texto: "conseguir a carreira dos sonhos e nunca mais poder faltar trabalho nem tirar férias, com um salário ótimo ",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 },
 
                 {
                     texto: "passar na faculdade que você preferir,  nunca poder exercer o que você cursou,  trabalhar com algo que você odeia e tirar férias a cada 3 meses",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 }]
     },
     {
@@ -28,12 +28,12 @@ const perguntas = [
 
                 {
                     texto: "poder eliminar o desmatamento na amazônia e nunca mais poder realizar um sonho seu",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 },
 
                 {
                     texto: "poder realizar um sonho na hora que quiser e morrer com o aumento do aquecimento global 1 semana depois  (você não pode desejar acabar com o aquecimento global)",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 }]
     },
     {
@@ -43,12 +43,12 @@ const perguntas = [
 
                 {
                     texto: "a tecnologia avançar em um nível as pessoas não precisem fazer esforços físicos porém todos os seus dados e vida pessoal serão expostos ",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 },
 
                 {
                     texto: "A tecnologia encontrar a cura para todas as doenças porém começaram a ser criados robôs para exilar a humanidade ",
-                    afirmação: "afirmação",
+                    afirmacao: "afirmação",
                 }]
     },
 ]
@@ -75,6 +75,7 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada (pergunta){
+    const afirmacoes = pergunta . afirmacao;
     atual++;
     mostraPerguntas ();
 }
