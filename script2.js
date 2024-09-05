@@ -7,55 +7,50 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: 'No âmbito social, você prefere:',
-        alternativas: [
-        {
-             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
-             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO;',
+        enunciado: "no ambito social, voce prefere:",
+        alternativas:
+            [
 
-        },
+                {
+                    texto: " Quebrar a outra perna da Maísa, mas a sua perna também quebrará ",
+                    afirmacao: "afirmação",
+                },
 
-        {
-            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO;',
-            afirmacao: 'VOCÊ NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
-
-       }
-    ]
+                {
+                    texto: " Aumentar o grau de daltonismo do Rodrigo, mas você ficará cego",
+                    afirmacao: "afirmação",
+                }]
     },
-   
     {
-        enunciado: 'No âmbito ambiental, você prefere:',
-        alternativas: [
-        {
-             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO;',
-             afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO;',
+        enunciado: "no ambito ambiental, voce prefere:",
+        alternativas:
+            [
 
-        },
+                {
+                    texto: " Salvar os ursos polares no Ártico e extinguir pandas",
+                    afirmacao: "afirmação",
+                },
 
-        {
-            texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA;',
-            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS;',
-
-       }
-    ]
+                {
+                    texto: " Salvar os ursos pandas na Ásia e extinguir ursos polares",
+                    afirmacao: "afirmação",
+                }]
     },
-
     {
-        enunciado: 'No âmbito tecnológico, você prefere:',
-        alternativas: [
-        {
-             texto: 'VOCÊ PREFERE TER INTERNET PARA SEMPRE .',
-             afirmacao: 'E NÃO PODE COMUNICAR-SE COM SEUS PAIS.'
-        },
+        enunciado: "no ambito tecnologico, voce prefere:",
+        alternativas:
+            [
 
-        {
-            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS. ',
-            afirmacao: 'E NUNCA TER INTERNET. ',
+                {
+                    texto: " Ser fã de carteirinha do Elon Musk e perder todo o seu dinheiro em bitcoin ",
+                    afirmacao: "afirmação",
+                },
 
-       }
-    ]
-    }
-
+                {
+                    texto: " Morrer sendo atingido por um drone de entregas da Amazon ",
+                    afirmacao: "afirmação",
+                }]
+    },
 ]
 
 let atual = 0;
