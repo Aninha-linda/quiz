@@ -12,13 +12,13 @@ const perguntas = [
             [
 
                 {
-                    texto: " Quebrar a outra perna da Maísa, mas a sua perna também quebrará ",
-                    afirmacao: "afirmação",
+                    texto: " Quebrar a perna do Rodrigo, mas a sua perna também quebrará ",
+                    afirmacao: " Parabéns!! Espero que você esteja aproveitando sua botinha e fisioterapia,",
                 },
 
                 {
                     texto: " Aumentar o grau de daltonismo do Rodrigo, mas você ficará cego",
-                    afirmacao: "afirmação",
+                    afirmacao: "Parabéns!! Espero que você esteja aproveitando seu curso de Braile e seu novo amigo Guido, o cão-guia, ",
                 }]
     },
     {
@@ -28,12 +28,12 @@ const perguntas = [
 
                 {
                     texto: " Salvar os ursos polares no Ártico e extinguir pandas",
-                    afirmacao: "afirmação",
+                    afirmacao: " porém, agora o mundo está triste sem os vídeos de pandas rolando",
                 },
 
                 {
                     texto: " Salvar os ursos pandas na Ásia e extinguir ursos polares",
-                    afirmacao: "afirmação",
+                    afirmacao: " porém, agora a Coca-Cola perdeu seu mascote, e faliram.",
                 }]
     },
     {
@@ -42,13 +42,13 @@ const perguntas = [
             [
 
                 {
-                    texto: " Ser fã de carteirinha do Elon Musk e perder todo o seu dinheiro em bitcoin ",
-                    afirmacao: "afirmação",
+                    texto: " Ser bestfriend do Elon Musk, mas perder todo o seu dinheiro em bitcoin ",
+                    afirmacao: " Por fim, após perder toda a sua riquesa em moedas virtuais, Elon Musk te abandonou (ele não gosta de pobre).",
                 },
 
                 {
-                    texto: " Morrer sendo atingido por um drone de entregas da Amazon ",
-                    afirmacao: "afirmação",
+                    texto: "Viajar para Roma, mas morrer sendo atingido por um drone de entregas da Amazon ",
+                    afirmacao: " Por fim, após a sua morte, seus familiares não pagam mais frete na AMAZON e nem passagens áreas para a Roma!",
                 }]
     },
 ]
